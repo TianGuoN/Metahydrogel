@@ -67,4 +67,3 @@ plt.show()
 
 if save_csv:
     np.savetxt(output_csv, all_profiles, delimiter=',')
-    print(f"Save to：{output_csv}")
